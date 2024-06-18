@@ -109,14 +109,14 @@ st.markdown('''
 ''')
 
 txt('**DIII - Manajemen informatika**, *Bina Sarana Informatika*',
-    '2017 - 2010')
+    '2007 - 2010')
 st.markdown('''
 - IPK: `3.47`
 - Tugas Akhir : *Perancangan Dan Pembuatan Website Informasi Reparasi ponsel dengan Menggunakan PHP , Dreamweaver 8 dan MYSQL*
 ''')
 
 txt('**S1 – Teknik Informatika**, *Institut Sains dan Teknologi Al-Kamal(ISTA)* ',
-    '2007 – 2008')
+    '2006 – 2007')
 st.markdown('''
 - IPK : `Tidak Selesai`
 - Keterangan : Tidak Melanjutkan Program pada semester kedua , dikarenakan Biaya
