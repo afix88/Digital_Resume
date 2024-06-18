@@ -7,12 +7,14 @@ with open("style.css") as f:
 #####################
 # Header
 st.write('''
-# Afik Maulana S.Kom.
+# Afik Maulana S.SI.
 ##### *Resume* 
 ''')
 
 image = Image.open('dp.png')
 st.image(image, width=150)
+
+
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
@@ -30,7 +32,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
-  <a class="navbar-brand" href="" target="_blank">Afik Maulana</a>
+  <a class="navbar-brand" href="linkedin.com/in/afik-maulana-19a9a883" target="_blank">Afik Maulana</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -113,6 +115,12 @@ st.markdown('''
 - Tugas Akhir : *Perancangan Dan Pembuatan Website Informasi Reparasi ponsel dengan Menggunakan PHP , Dreamweaver 8 dan MYSQL*
 ''')
 
+txt('**S1 – Teknik Informatika**, *Institut Sains dan Teknologi Al-Kamal(ISTA)* ',
+    '2007 – 2008')
+st.markdown('''
+- IPK : `Tidak Selesai`
+- Keterangan : Tidak Melanjutkan Program pada semester kedua , dikarenakan Biaya
+''')
 #####################
 st.markdown('''
 ## Work Experience
@@ -165,12 +173,12 @@ st.markdown('''
 ''')
 txt3('Programming', '`Python`, `PHP`, `Javascript`,`VBA`,`Foxpro`')
 txt3('Data processing/wrangling',
-     '`SQL`, `pandas`, `numpy`,`Ms.Excel`,`Power Query`,`Big Query`')
+     '`SQL`, `pandas`, `pyspark`, `numpy`,`Ms.Excel`,`Power Query`,`Big Query`')
 txt3('Data visualization',
-     '`matplotlib`, `seaborn`, `plotly`,`Ms.Power BI`,`Looker`')
+     '`matplotlib`, `seaborn`, `plotly`,`streamlit`,`Ms.Power BI`,`Looker`')
 txt3('Web development', '`Flask`, `HTML`, `CSS`')
 txt3('Mobility development', '`Flutter`, `kivy`')
-txt3('Model deployment', '`streamlit`, `render`, `R Shiny`, `Heroku`, `Azure`,`GCP`')
+txt3('Model deployment', '`render`, `R Shiny`, `Heroku`, `Azure`,`GCP`')
 
 #####################
 st.markdown('''
@@ -185,7 +193,8 @@ st.markdown('''
 txt('**Perfect Store GT**, *PT Unilever* ',
     '')
 st.markdown('''
- - `Membuat system DTC (Document Trafic Center) dengan menggunakan mysql dan php`
+ - `Mengumpulkan dan Menganalisa data Store peserta CDFD apakah Perfect Store sesuai dengana KPI (OSA,NPD,PROMO DAN CTA)
+yang dilakukan Audit menggunakan tools starlight `
 ''')
 txt('**Locus System**, *PT Unilever* ',
     '')
